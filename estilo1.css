@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color: antiquewhite;
+    color: brown;
+}
+
+header{
+    background-color: rgb(162, 92, 92);
+    color: wheat;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0%;
+}
+
+nav ul li {
+display: inline;
+margin-right: 15px;
+
+}
+
+ nav ul li a {
+  color: rgb(228, 154, 169);
+  text-decoration: none;
+  font-weight: bold;
+
+ }
+
+ nav ul li a :hover{
+    text-decoration: underline;
+ }
+ 
+ .section{
+    padding:20px ;
+    background-color: rgb(241, 241, 241);
+    margin: 20px 0;
+ }
+
+ .section h2 {
+margin: 15px;
+color: rgb(162, 92, 92);
+ }
+
+ .section img {
+  max-width: 100%;
+  height: auto;
+ }
+
+ form {
+    display: flex;
+    flex-direction: column;
+ }
+
+ form label{
+    margin-bottom: 5px;
+ }
+ form input, form textarea{
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px salmon;
+   border-radius: 4px;
+ }
+
+ form button {
+padding: 10px;
+background-color: bisque;
+color: aquamarine;
+border: none;
+cursor: pointer;
+border-radius: 4px;
+ }
+
+ form button:hover{
+    background-color: brown;
+ }
+
+ footer {
+    background-color: rgb(162, 92, 92);
+    color: azure;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+ }
